@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginapp.LoginController">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="70.0" text="DB status" />
+      <Label fx:id="dbstatus" layoutX="84.0" layoutY="14.0" prefHeight="17.0" prefWidth="200.0" />
+      <TextField fx:id="username" layoutX="113.0" layoutY="70.0" prefHeight="25.0" prefWidth="209.0" promptText="username" />
+      <Label layoutX="21.0" layoutY="74.0" prefHeight="17.0" prefWidth="70.0" text="Username" />
+      <Label layoutX="21.0" layoutY="113.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="113.0" layoutY="109.0" prefHeight="25.0" prefWidth="209.0" promptText="password" />
+      <ComboBox fx:id="comboBox" layoutX="115.0" layoutY="163.0" prefHeight="25.0" prefWidth="209.0" promptText="Admin/Student" />
+      <Button fx:id="loginButton" layoutX="115.0" layoutY="204.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="209.0" text="Login" />
+   </children>
+</AnchorPane>
